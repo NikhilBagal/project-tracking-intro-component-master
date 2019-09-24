@@ -19,7 +19,7 @@ nav ul {
     justify-content: space-between;
     width: 40%;
     list-style: none;
-    
+    visibility: visible;
 }
 .menu-icon {
     display: none;
@@ -115,6 +115,14 @@ nav ul li a:hover {
         box-shadow: -8px 10px 5px 0px rgba(0,0,0,0.75);
         -webkit-box-shadow: -8px 10px 5px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: -8px 10px 5px 0px rgba(0,0,0,0.75);
+        visibility: hidden;
+    }
+    #close-icon {
+        display: none;
+        
+    }
+    #open-icon{
+        font-size: 20px;
     }
     nav ul li {
         text-align: center;
