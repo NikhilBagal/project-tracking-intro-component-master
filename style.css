@@ -5,9 +5,9 @@
 nav {
     display: flex;
     width: 80%;
-    margin: auto 10%;
-    justify-content: space-around;
-    padding: 50px;
+    margin: 5% 10%;
+    justify-content: space-between;
+    
 }
 nav .logo {
     width: 30%;
@@ -53,7 +53,7 @@ nav ul li a:hover {
     grid-area: text-content;
    /* text-align: center;*/
     padding-top: 10%;
-    padding-left: 10%;
+    padding-left: 20%;
 }
 #new-text {
     padding: 1% 2%;
@@ -64,10 +64,27 @@ nav ul li a:hover {
 }
 .headline {
     margin-bottom: 5%;
-    font-size: 20px;
+    font-size: 2vw;
 }
 .punchline {
-    
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: bolder;
+}
+.tagline {
+    margin-top: 5%;
+    font-size: 1.5vw;
+}
+.buttons {
+    margin-top: 5%;
+    
+}
+.buttons #schedule-button {
+    margin-right: 5%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: orangered;
+    color: #fff;
+    cursor: pointer;
 }
