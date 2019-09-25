@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow:700&display=swap');
 * {
     margin: 0%;
     padding: 0%;
@@ -32,7 +35,12 @@ nav ul li a {
     text-decoration: none;
     display: block;
     cursor: pointer;
-    
+    font-weight: bold;
+    color: hsl(230, 29%, 20%);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#login-attr {
+    color: hsl(231, 7%, 65%);
 }
 nav ul li a:hover {
     border-bottom: 1px solid black;
@@ -66,18 +74,25 @@ nav ul li a:hover {
 .headline {
     margin-bottom: 5%;
     font-size: 2vw;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(230, 11%, 40%);
 }
 .punchline {
     font-size: 3vw;
     font-weight: bolder;
+    font-weight: 700;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(230, 29%, 20%);
 }
 .tagline {
     margin-top: 5%;
     font-size: 1.5vw;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(230, 29%, 20%);
 }
 .buttons {
     margin-top: 5%;
-    
+    font-family: 'Barlow', sans-serif;
 }
 .buttons #schedule-button {
     margin-right: 5%;
@@ -85,7 +100,7 @@ nav ul li a:hover {
     border: none;
     border-radius: 10px;
     outline: none;
-    background-color: orangered;
+    background-color: hsl(0, 100%, 68%);;
     color: #fff;
     cursor: pointer;
     width: 40%;
