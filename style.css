@@ -24,9 +24,6 @@ nav ul {
     list-style: none;
     visibility: visible;
 }
-.menu-icon {
-    display: none;
-}
 nav ul li  {
     margin: 2% 4% auto 2%;
     
@@ -115,8 +112,14 @@ nav ul li a:hover {
         flex-direction: column;
         
     }
-    nav .menu-icon {
-        display: block;
+    .menu-icon:before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+        font-size: 25px;
+    }
+     .menu-icon.active:before {
+        content: '\f00d';
+        
     }
     nav .logo {
         width: 100%;
@@ -132,12 +135,8 @@ nav ul li a:hover {
         -moz-box-shadow: -8px 10px 5px 0px rgba(0,0,0,0.75);
         visibility: hidden;
     }
-    #close-icon {
-        display: none;
-        
-    }
-    #open-icon{
-        font-size: 20px;
+    nav ul.active {
+        visibility: visible;
     }
     nav ul li {
         text-align: center;
